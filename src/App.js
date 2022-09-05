@@ -12,7 +12,16 @@ function App() {
         <main>
           <Search />
         </main>
-        <footer className="mt-3">Coded by Daryna Lytvynenko</footer>
+        <footer className="mt-3">
+          Coded by{" "}
+          <a
+            href="https://github.com/Daryna-91/react-dictionary-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Daryna Lytvynenko
+          </a>
+        </footer>
       </div>
     </div>
   );
