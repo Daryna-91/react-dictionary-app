@@ -21,8 +21,14 @@ export default function Search() {
   return (
     <div>
       <form onSubmit={handleSearch}>
-        <input type="search" onChange={handleChange} />
+        <input
+          type="search"
+          onChange={handleChange}
+          placeholder="Type a word here"
+        />
+        <div className="example">Example: hello, buy, book etc.</div>
       </form>
+
       <Results results={results} />
     </div>
   );
